@@ -15,6 +15,7 @@ class UserAdminSeeder extends Seeder
     public function run()
     {
         User::create([
+            'name' => 'admin',
             'email' => 'admin_sec@xpto.com.br',
             'password' => bcrypt('secXpto')
         ]);

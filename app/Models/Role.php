@@ -4,6 +4,7 @@ namespace App\Models;
 
 use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Database\Eloquent\Model;
+use App\Models\UserRoles;
 
 class Role extends Model
 {
@@ -12,4 +13,9 @@ class Role extends Model
     protected $table = 'roles';
     protected $guarded = [];
     protected $dates = ['created_at', 'updated_at'];
+
+    public function users_roles()
+    {
+        return $this->hasMany(UserRoles::class);
+    }
 }

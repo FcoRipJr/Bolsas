@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c61ff82cbf0142a401a48a8161e1595a",
+    "content-hash": "ea1b7fe11b8d1c6b260e7e650b1d2107",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -633,6 +633,141 @@
                 }
             ],
             "time": "2021-11-21T21:41:47+00:00"
+        },
+        {
+            "name": "gsferro/filtereasy",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GuilhermeFerro/laravel-filtereasy.git",
+                "reference": "a5a11fc714566ae2f53b5ba46568aa1bcc7c2f73"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GuilhermeFerro/laravel-filtereasy/zipball/a5a11fc714566ae2f53b5ba46568aa1bcc7c2f73",
+                "reference": "a5a11fc714566ae2f53b5ba46568aa1bcc7c2f73",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Gsferro\\FilterEasy\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Guilherme Ferro",
+                    "email": "gsferroti@gmail.com"
+                }
+            ],
+            "description": "Forma easy e generica de fazer filtros na model",
+            "support": {
+                "issues": "https://github.com/GuilhermeFerro/laravel-filtereasy/issues",
+                "source": "https://github.com/GuilhermeFerro/laravel-filtereasy/tree/v1.1"
+            },
+            "time": "2020-09-16T13:17:35+00:00"
+        },
+        {
+            "name": "gsferro/powermodel",
+            "version": "v1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GuilhermeFerro/laravel-powermodel.git",
+                "reference": "7e92a76791a0b3e483e18e5b6396ab4c8cf083c7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GuilhermeFerro/laravel-powermodel/zipball/7e92a76791a0b3e483e18e5b6396ab4c8cf083c7",
+                "reference": "7e92a76791a0b3e483e18e5b6396ab4c8cf083c7",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "files": [
+                    "src\\Helpers\\powermodel.php"
+                ],
+                "psr-4": {
+                    "Gsferro\\PowerModel\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Ferro",
+                    "email": "gsferroti@gmail.com"
+                },
+                {
+                    "name": "Gianclaudio Oliveira",
+                    "email": "gianclaudiooliveira@yahoo.com.br"
+                }
+            ],
+            "description": "Forma elegante e eficiente de formatar campos de data, hora e afins ao exibir, colocando somente um sufixo no nome original do atributo sem precisar declarar Accessors e/ou Mutators dentro da model",
+            "keywords": [
+                "accessors",
+                "easy",
+                "eloquent",
+                "laravel",
+                "model"
+            ],
+            "support": {
+                "issues": "https://github.com/GuilhermeFerro/laravel-powermodel/issues",
+                "source": "https://github.com/GuilhermeFerro/laravel-powermodel/tree/v1.3"
+            },
+            "time": "2022-01-04T23:38:58+00:00"
+        },
+        {
+            "name": "gsferro/responseview",
+            "version": "v1.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/GuilhermeFerro/laravel-responseview.git",
+                "reference": "99b2af1aa897f4aab99c3d21d9fd7ce5acfcb581"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/GuilhermeFerro/laravel-responseview/zipball/99b2af1aa897f4aab99c3d21d9fd7ce5acfcb581",
+                "reference": "99b2af1aa897f4aab99c3d21d9fd7ce5acfcb581",
+                "shasum": ""
+            },
+            "type": "library",
+            "extra": {
+                "laravel": {
+                    "providers": [
+                        "Gsferro\\ResponseView\\Providers\\ResponseViewServiceProvider"
+                    ]
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Gsferro\\ResponseView\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Guilherme Ferro",
+                    "email": "gsferroti@gmail.com"
+                }
+            ],
+            "description": "Response easy the dates from views",
+            "keywords": [
+                "blade",
+                "laravel",
+                "response",
+                "view"
+            ],
+            "support": {
+                "issues": "https://github.com/GuilhermeFerro/laravel-responseview/issues",
+                "source": "https://github.com/GuilhermeFerro/laravel-responseview/tree/v1.1"
+            },
+            "time": "2021-05-06T00:17:48+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",

@@ -17,7 +17,16 @@ composer require gsferro/powermodel
 composer require gsferro/filtereasy
 ````
 
-#### Laravel ResponseView
+## Laravel ResponseView
 ````
 composer require gsferro/responseview
+````
+
+## Laravel DataTables
+````
+composer require yajra/laravel-datatables-oracle:"~9.0"
+
+
+composer require yajra/laravel-datatables:^1.5
+
 ````
